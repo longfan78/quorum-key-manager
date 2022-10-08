@@ -14,6 +14,8 @@ import (
 	"github.com/consensys/quorum-key-manager/pkg/errors"
 	"github.com/consensys/quorum-key-manager/pkg/http/server"
 	gorillamux "github.com/gorilla/mux"
+	
+	"github.com/rs/cors"
 )
 
 const (
@@ -53,9 +55,20 @@ func New(cfg *Config, logger log.Logger) *App {
 	// Create router and register APIs
 	router := gorillamux.NewRouter()
 
+	// Enable CORS
+        c := cors.New(cors.Options{
+          AllowedOrigins: []string{"*"},
+          AllowedMethods: []string{
+            http.MethodPost,
+            http.MethodGet,
+          },
+          AllowedHeaders:   []string{"*"},
+          AllowCredentials: false,
+        })
+	
 	// Create API server
 	apiServer := server.New(cfg.HTTP)
-	apiServer.Handler = router
+	apiServer.Handler = c.Handler(router)
 
 	// Create Healthz server
 	healthzServer := server.NewHealthz(cfg.HTTP)
