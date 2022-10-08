@@ -1,9 +1,9 @@
 package app
 
 import (
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	"github.com/consensys/quorum-key-manager/src/utils/api/http"
-	"github.com/consensys/quorum-key-manager/src/utils/service/utils"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/utils/api/http"
+	"github.com/longfan78/quorum-key-manager/src/utils/service/utils"
 	"github.com/gorilla/mux"
 )
 

@@ -3,10 +3,10 @@ package utils
 import (
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
 
-	"github.com/consensys/quorum-key-manager/src/infra/log/testutils"
-	testutils2 "github.com/consensys/quorum-key-manager/src/stores/entities/testutils"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/testutils"
+	testutils2 "github.com/longfan78/quorum-key-manager/src/stores/entities/testutils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"

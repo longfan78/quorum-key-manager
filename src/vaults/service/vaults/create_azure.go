@@ -3,10 +3,10 @@ package vaults
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	auth "github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/entities"
-	"github.com/consensys/quorum-key-manager/src/infra/akv/client"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	auth "github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/infra/akv/client"
 )
 
 func (c *Vaults) CreateAzure(_ context.Context, name string, config *entities.AzureConfig, allowedTenants []string, _ *auth.UserInfo) error {

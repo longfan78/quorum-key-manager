@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/pkg/tls"
-	"github.com/consensys/quorum-key-manager/src/auth"
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/infra/jwt"
-	"github.com/consensys/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/tls"
+	"github.com/longfan78/quorum-key-manager/src/auth"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/infra/jwt"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
 )
 
 const (

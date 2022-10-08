@@ -3,7 +3,7 @@ package secrets
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
 )
 
 func (c Connector) List(ctx context.Context, limit, offset uint64) ([]string, error) {

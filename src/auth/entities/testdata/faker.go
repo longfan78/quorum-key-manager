@@ -1,7 +1,7 @@
 package testdata
 
 import (
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
 )
 
 func FakeUserClaims() *entities.UserClaims {

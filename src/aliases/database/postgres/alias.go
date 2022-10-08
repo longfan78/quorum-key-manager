@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/consensys/quorum-key-manager/src/aliases/database"
-	"github.com/consensys/quorum-key-manager/src/aliases/database/models"
-	"github.com/consensys/quorum-key-manager/src/entities"
-	"github.com/consensys/quorum-key-manager/src/infra/postgres"
+	"github.com/longfan78/quorum-key-manager/src/aliases/database"
+	"github.com/longfan78/quorum-key-manager/src/aliases/database/models"
+	"github.com/longfan78/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/infra/postgres"
 )
 
 type Alias struct {

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/consensys/quorum-key-manager/pkg/jsonrpc"
+	"github.com/longfan78/quorum-key-manager/pkg/jsonrpc"
 )
 
 const jsonRPCPath = "nodes"

@@ -3,13 +3,13 @@ package manifest
 import (
 	"context"
 
-	entities2 "github.com/consensys/quorum-key-manager/src/entities"
+	entities2 "github.com/longfan78/quorum-key-manager/src/entities"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/pkg/json"
-	"github.com/consensys/quorum-key-manager/src/auth"
-	"github.com/consensys/quorum-key-manager/src/auth/api/types"
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/json"
+	"github.com/longfan78/quorum-key-manager/src/auth"
+	"github.com/longfan78/quorum-key-manager/src/auth/api/types"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
 )
 
 type RolesHandler struct {

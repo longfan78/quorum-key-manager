@@ -1,6 +1,6 @@
 package entities
 
-import "github.com/consensys/quorum-key-manager/src/entities"
+import "github.com/longfan78/quorum-key-manager/src/entities"
 
 // Key public part of a key
 type Key struct {

@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strings"
 
-	auth "github.com/consensys/quorum-key-manager/src/auth/api/http"
-	http2 "github.com/consensys/quorum-key-manager/src/infra/http"
-	"github.com/consensys/quorum-key-manager/src/nodes"
+	auth "github.com/longfan78/quorum-key-manager/src/auth/api/http"
+	http2 "github.com/longfan78/quorum-key-manager/src/infra/http"
+	"github.com/longfan78/quorum-key-manager/src/nodes"
 	"github.com/gorilla/mux"
 )
 

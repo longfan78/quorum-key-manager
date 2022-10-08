@@ -3,7 +3,7 @@ package manifests
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 )
 
 //go:generate mockgen -source=reader.go -destination=mock/reader.go -package=mock

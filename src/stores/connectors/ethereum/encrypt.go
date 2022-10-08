@@ -3,7 +3,7 @@ package eth
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )

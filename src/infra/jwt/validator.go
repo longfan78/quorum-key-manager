@@ -3,7 +3,7 @@ package jwt
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
 )
 
 //go:generate mockgen -source=validator.go -destination=mock/validator.go -package=mock

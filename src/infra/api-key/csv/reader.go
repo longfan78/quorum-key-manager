@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	apikey "github.com/consensys/quorum-key-manager/src/infra/api-key"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	apikey "github.com/longfan78/quorum-key-manager/src/infra/api-key"
 )
 
 const (

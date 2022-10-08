@@ -3,9 +3,9 @@ package aliases
 import (
 	"testing"
 
-	mock2 "github.com/consensys/quorum-key-manager/src/aliases/database/mock"
-	"github.com/consensys/quorum-key-manager/src/auth/mock"
-	"github.com/consensys/quorum-key-manager/src/infra/log/testutils"
+	mock2 "github.com/longfan78/quorum-key-manager/src/aliases/database/mock"
+	"github.com/longfan78/quorum-key-manager/src/auth/mock"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/testutils"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )

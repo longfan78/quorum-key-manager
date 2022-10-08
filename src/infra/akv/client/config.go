@@ -6,7 +6,7 @@ import (
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/azure"
 	"github.com/Azure/go-autorest/autorest/azure/auth"
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 )
 
 type Config struct {

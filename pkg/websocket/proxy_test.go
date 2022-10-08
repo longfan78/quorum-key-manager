@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	"github.com/consensys/quorum-key-manager/src/infra/log/testutils"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/testutils"
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/consensys/quorum-key-manager/pkg/http/request"
-	"github.com/consensys/quorum-key-manager/pkg/http/response"
+	"github.com/longfan78/quorum-key-manager/pkg/http/request"
+	"github.com/longfan78/quorum-key-manager/pkg/http/response"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -7,11 +7,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/src/infra/log/testutils"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/testutils"
 
-	"github.com/consensys/quorum-key-manager/pkg/jsonrpc"
-	aliasmock "github.com/consensys/quorum-key-manager/src/aliases/mock"
-	mockstoremanager "github.com/consensys/quorum-key-manager/src/stores/mock"
+	"github.com/longfan78/quorum-key-manager/pkg/jsonrpc"
+	aliasmock "github.com/longfan78/quorum-key-manager/src/aliases/mock"
+	mockstoremanager "github.com/longfan78/quorum-key-manager/src/stores/mock"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

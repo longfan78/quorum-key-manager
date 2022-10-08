@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 )
 
 type Secret struct {

@@ -6,7 +6,7 @@ package mocks
 
 import (
 	context "context"
-	postgres "github.com/consensys/quorum-key-manager/src/infra/postgres"
+	postgres "github.com/longfan78/quorum-key-manager/src/infra/postgres"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

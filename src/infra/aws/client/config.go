@@ -3,7 +3,7 @@ package client
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 )
 
 type Config struct {

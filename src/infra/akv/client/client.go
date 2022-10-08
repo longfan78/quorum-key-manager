@@ -3,7 +3,7 @@ package client
 import (
 	"github.com/Azure/azure-sdk-for-go/services/keyvault/v7.1/keyvault"
 	"github.com/Azure/azure-sdk-for-go/services/keyvault/v7.1/keyvault/keyvaultapi"
-	"github.com/consensys/quorum-key-manager/src/infra/akv"
+	"github.com/longfan78/quorum-key-manager/src/infra/akv"
 )
 
 type AKVClient struct {

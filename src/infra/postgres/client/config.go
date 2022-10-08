@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/consensys/quorum-key-manager/pkg/tls/certificate"
+	"github.com/longfan78/quorum-key-manager/pkg/tls/certificate"
 
 	"github.com/go-pg/pg/v10"
 
-	"github.com/consensys/quorum-key-manager/pkg/tls"
+	"github.com/longfan78/quorum-key-manager/pkg/tls"
 )
 
 const (

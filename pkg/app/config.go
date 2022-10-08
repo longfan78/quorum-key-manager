@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/consensys/quorum-key-manager/pkg/http/server"
+	"github.com/longfan78/quorum-key-manager/pkg/http/server"
 )
 
 type Config struct {

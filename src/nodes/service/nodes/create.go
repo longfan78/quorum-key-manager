@@ -3,10 +3,10 @@ package nodes
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/nodes/interceptor"
-	proxynode "github.com/consensys/quorum-key-manager/src/nodes/node/proxy"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/nodes/interceptor"
+	proxynode "github.com/longfan78/quorum-key-manager/src/nodes/node/proxy"
 )
 
 func (i *Nodes) Create(ctx context.Context, name string, config *proxynode.Config, allowedTenants []string, _ *entities.UserInfo) error {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"sort"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/auth/service/authorizator"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/service/authorizator"
 )
 
 func (i *Nodes) List(ctx context.Context, userInfo *entities.UserInfo) ([]string, error) {

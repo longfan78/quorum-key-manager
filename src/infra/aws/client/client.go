@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/kms"
 	"github.com/aws/aws-sdk-go/service/secretsmanager"
 	"github.com/cenkalti/backoff/v4"
-	awsinfra "github.com/consensys/quorum-key-manager/src/infra/aws"
-	"github.com/consensys/quorum-key-manager/src/infra/log"
+	awsinfra "github.com/longfan78/quorum-key-manager/src/infra/aws"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
 )
 
 type AWSClient struct {

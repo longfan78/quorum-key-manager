@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	"github.com/consensys/quorum-key-manager/src/utils"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/utils"
 )
 
 type Utilities struct {

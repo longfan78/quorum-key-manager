@@ -3,19 +3,19 @@ package stores
 import (
 	"context"
 
-	auth "github.com/consensys/quorum-key-manager/src/auth/entities"
-	entities2 "github.com/consensys/quorum-key-manager/src/entities"
-	akvinfra "github.com/consensys/quorum-key-manager/src/infra/akv"
-	awsinfra "github.com/consensys/quorum-key-manager/src/infra/aws"
-	hashicorpinfra "github.com/consensys/quorum-key-manager/src/infra/hashicorp"
-	"github.com/consensys/quorum-key-manager/src/stores"
-	"github.com/consensys/quorum-key-manager/src/stores/store/secrets/akv"
-	"github.com/consensys/quorum-key-manager/src/stores/store/secrets/aws"
-	"github.com/consensys/quorum-key-manager/src/stores/store/secrets/hashicorp"
+	auth "github.com/longfan78/quorum-key-manager/src/auth/entities"
+	entities2 "github.com/longfan78/quorum-key-manager/src/entities"
+	akvinfra "github.com/longfan78/quorum-key-manager/src/infra/akv"
+	awsinfra "github.com/longfan78/quorum-key-manager/src/infra/aws"
+	hashicorpinfra "github.com/longfan78/quorum-key-manager/src/infra/hashicorp"
+	"github.com/longfan78/quorum-key-manager/src/stores"
+	"github.com/longfan78/quorum-key-manager/src/stores/store/secrets/akv"
+	"github.com/longfan78/quorum-key-manager/src/stores/store/secrets/aws"
+	"github.com/longfan78/quorum-key-manager/src/stores/store/secrets/hashicorp"
 
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
 )
 
 func (c *Connector) CreateSecret(ctx context.Context, name, vaultName string, allowedTenants []string, userInfo *auth.UserInfo) error {

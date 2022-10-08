@@ -7,14 +7,14 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/src/stores/api/formatters"
+	"github.com/longfan78/quorum-key-manager/src/stores/api/formatters"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/utils/api/types/testutils"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/utils/api/types/testutils"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/consensys/quorum-key-manager/src/stores/mock"
+	"github.com/longfan78/quorum-key-manager/src/stores/mock"
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/suite"

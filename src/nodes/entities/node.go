@@ -1,7 +1,7 @@
 package entities
 
 import (
-	proxynode "github.com/consensys/quorum-key-manager/src/nodes/node/proxy"
+	proxynode "github.com/longfan78/quorum-key-manager/src/nodes/node/proxy"
 )
 
 type Node struct {

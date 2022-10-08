@@ -6,11 +6,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 	"github.com/go-playground/validator/v10"
 	"gopkg.in/yaml.v2"
 
-	"github.com/consensys/quorum-key-manager/src/infra/manifests"
+	"github.com/longfan78/quorum-key-manager/src/infra/manifests"
 )
 
 type Reader struct {

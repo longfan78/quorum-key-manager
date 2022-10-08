@@ -3,12 +3,12 @@ package keys
 import (
 	"context"
 
-	authentities "github.com/consensys/quorum-key-manager/src/auth/entities"
+	authentities "github.com/longfan78/quorum-key-manager/src/auth/entities"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
 
-	"github.com/consensys/quorum-key-manager/src/stores/database"
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/stores/database"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 )
 
 func (c Connector) Update(ctx context.Context, id string, attr *entities.Attributes) (*entities.Key, error) {

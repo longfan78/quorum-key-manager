@@ -4,11 +4,11 @@ import (
 	"context"
 	"sync"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/auth"
-	"github.com/consensys/quorum-key-manager/src/entities"
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	"github.com/consensys/quorum-key-manager/src/vaults"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/auth"
+	"github.com/longfan78/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/vaults"
 )
 
 type Vaults struct {

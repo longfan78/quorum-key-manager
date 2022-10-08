@@ -7,9 +7,9 @@ package proxynode
 import (
 	reflect "reflect"
 
-	ethereum "github.com/consensys/quorum-key-manager/pkg/ethereum"
-	jsonrpc "github.com/consensys/quorum-key-manager/pkg/jsonrpc"
-	tessera "github.com/consensys/quorum-key-manager/pkg/tessera"
+	ethereum "github.com/longfan78/quorum-key-manager/pkg/ethereum"
+	jsonrpc "github.com/longfan78/quorum-key-manager/pkg/jsonrpc"
+	tessera "github.com/longfan78/quorum-key-manager/pkg/tessera"
 	gomock "github.com/golang/mock/gomock"
 )
 

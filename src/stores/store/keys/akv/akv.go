@@ -5,17 +5,17 @@ import (
 	"encoding/base64"
 	"time"
 
-	entities2 "github.com/consensys/quorum-key-manager/src/entities"
+	entities2 "github.com/longfan78/quorum-key-manager/src/entities"
 
-	"github.com/consensys/quorum-key-manager/src/stores"
+	"github.com/longfan78/quorum-key-manager/src/stores"
 	"github.com/ethereum/go-ethereum/crypto"
 
 	"github.com/Azure/azure-sdk-for-go/services/keyvault/v7.1/keyvault"
 	"github.com/Azure/go-autorest/autorest/date"
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/infra/akv"
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/infra/akv"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 )
 
 type Store struct {

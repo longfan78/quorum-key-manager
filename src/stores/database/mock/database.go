@@ -6,8 +6,8 @@ package mock
 
 import (
 	context "context"
-	database "github.com/consensys/quorum-key-manager/src/stores/database"
-	entities "github.com/consensys/quorum-key-manager/src/stores/entities"
+	database "github.com/longfan78/quorum-key-manager/src/stores/database"
+	entities "github.com/longfan78/quorum-key-manager/src/stores/entities"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

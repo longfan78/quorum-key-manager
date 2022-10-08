@@ -1,11 +1,11 @@
 package interceptor
 
 import (
-	"github.com/consensys/quorum-key-manager/pkg/jsonrpc"
-	"github.com/consensys/quorum-key-manager/src/aliases"
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	proxynode "github.com/consensys/quorum-key-manager/src/nodes/node/proxy"
-	"github.com/consensys/quorum-key-manager/src/stores"
+	"github.com/longfan78/quorum-key-manager/pkg/jsonrpc"
+	"github.com/longfan78/quorum-key-manager/src/aliases"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	proxynode "github.com/longfan78/quorum-key-manager/src/nodes/node/proxy"
+	"github.com/longfan78/quorum-key-manager/src/stores"
 )
 
 type Interceptor struct {

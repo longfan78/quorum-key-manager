@@ -3,14 +3,14 @@ package stores
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/service/authorizator"
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/service/authorizator"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/auth"
-	authtypes "github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/stores"
-	"github.com/consensys/quorum-key-manager/src/stores/connectors/secrets"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/auth"
+	authtypes "github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/stores"
+	"github.com/longfan78/quorum-key-manager/src/stores/connectors/secrets"
 )
 
 func (c *Connector) Secret(ctx context.Context, storeName string, userInfo *authtypes.UserInfo) (stores.SecretStore, error) {

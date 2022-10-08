@@ -1,12 +1,12 @@
 package testutils
 
 import (
-	"github.com/consensys/quorum-key-manager/src/stores/api/types/testutils"
+	"github.com/longfan78/quorum-key-manager/src/stores/api/types/testutils"
 	"github.com/ethereum/go-ethereum/common"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	"github.com/consensys/quorum-key-manager/src/utils/api/types"
+	"github.com/longfan78/quorum-key-manager/src/utils/api/types"
 )
 
 func FakeECRecoverRequest() *types.ECRecoverRequest {

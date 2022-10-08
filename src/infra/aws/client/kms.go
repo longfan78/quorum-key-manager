@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/kms"
 	"github.com/cenkalti/backoff/v4"
-	"github.com/consensys/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
 )
 
 const (

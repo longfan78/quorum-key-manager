@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	mock3 "github.com/consensys/quorum-key-manager/src/auth/mock"
-	"github.com/consensys/quorum-key-manager/src/infra/log/testutils"
-	mock2 "github.com/consensys/quorum-key-manager/src/stores/database/mock"
-	mock4 "github.com/consensys/quorum-key-manager/src/vaults/mock"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	mock3 "github.com/longfan78/quorum-key-manager/src/auth/mock"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/testutils"
+	mock2 "github.com/longfan78/quorum-key-manager/src/stores/database/mock"
+	mock4 "github.com/longfan78/quorum-key-manager/src/vaults/mock"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )

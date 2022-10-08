@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	auth "github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/entities"
+	auth "github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/infra/hashicorp/client"
-	"github.com/consensys/quorum-key-manager/src/infra/hashicorp/token"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/infra/hashicorp/client"
+	"github.com/longfan78/quorum-key-manager/src/infra/hashicorp/token"
 )
 
 func (c *Vaults) CreateHashicorp(_ context.Context, name string, config *entities.HashicorpConfig, allowedTenants []string, _ *auth.UserInfo) error {

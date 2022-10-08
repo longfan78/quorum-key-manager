@@ -3,12 +3,12 @@ package formatters
 import (
 	"fmt"
 
-	common2 "github.com/consensys/quorum-key-manager/pkg/common"
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/pkg/ethereum"
-	"github.com/consensys/quorum-key-manager/src/stores/api/types"
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
-	quorumtypes "github.com/consensys/quorum/core/types"
+	common2 "github.com/longfan78/quorum-key-manager/pkg/common"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/ethereum"
+	"github.com/longfan78/quorum-key-manager/src/stores/api/types"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
+	quorumtypes "github.com/longfan78/quorum/core/types"
 	"github.com/ethereum/go-ethereum/common/math"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	signer "github.com/ethereum/go-ethereum/signer/core"

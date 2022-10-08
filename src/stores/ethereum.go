@@ -4,14 +4,14 @@ import (
 	"context"
 	"math/big"
 
-	quorumtypes "github.com/consensys/quorum/core/types"
+	quorumtypes "github.com/longfan78/quorum/core/types"
 	"github.com/ethereum/go-ethereum/common"
 
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/signer/core"
 
-	"github.com/consensys/quorum-key-manager/pkg/ethereum"
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/pkg/ethereum"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 )
 
 //go:generate mockgen -source=ethereum.go -destination=mock/ethereum.go -package=mock

@@ -3,9 +3,9 @@ package models
 import (
 	"time"
 
-	entities2 "github.com/consensys/quorum-key-manager/src/entities"
+	entities2 "github.com/longfan78/quorum-key-manager/src/entities"
 
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 )
 
 type Key struct {

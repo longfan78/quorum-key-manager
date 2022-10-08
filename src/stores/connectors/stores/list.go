@@ -3,10 +3,10 @@ package stores
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/service/authorizator"
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/service/authorizator"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 
-	authtypes "github.com/consensys/quorum-key-manager/src/auth/entities"
+	authtypes "github.com/longfan78/quorum-key-manager/src/auth/entities"
 	"github.com/ethereum/go-ethereum/common"
 )
 

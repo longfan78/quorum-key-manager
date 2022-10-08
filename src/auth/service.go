@@ -4,7 +4,7 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
 )
 
 //go:generate mockgen -source=service.go -destination=mock/service.go -package=mock

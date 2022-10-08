@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/consensys/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
 	"github.com/go-pg/pg/v10"
 )
 

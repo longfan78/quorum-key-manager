@@ -3,16 +3,16 @@ package src
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth"
-	rolesapi "github.com/consensys/quorum-key-manager/src/auth/api/manifest"
-	"github.com/consensys/quorum-key-manager/src/entities"
-	manifestreader "github.com/consensys/quorum-key-manager/src/infra/manifests/yaml"
-	"github.com/consensys/quorum-key-manager/src/nodes"
-	nodesapi "github.com/consensys/quorum-key-manager/src/nodes/api/manifest"
-	"github.com/consensys/quorum-key-manager/src/stores"
-	storesapi "github.com/consensys/quorum-key-manager/src/stores/api/manifest"
-	"github.com/consensys/quorum-key-manager/src/vaults"
-	vaultsapi "github.com/consensys/quorum-key-manager/src/vaults/api/manifest"
+	"github.com/longfan78/quorum-key-manager/src/auth"
+	rolesapi "github.com/longfan78/quorum-key-manager/src/auth/api/manifest"
+	"github.com/longfan78/quorum-key-manager/src/entities"
+	manifestreader "github.com/longfan78/quorum-key-manager/src/infra/manifests/yaml"
+	"github.com/longfan78/quorum-key-manager/src/nodes"
+	nodesapi "github.com/longfan78/quorum-key-manager/src/nodes/api/manifest"
+	"github.com/longfan78/quorum-key-manager/src/stores"
+	storesapi "github.com/longfan78/quorum-key-manager/src/stores/api/manifest"
+	"github.com/longfan78/quorum-key-manager/src/vaults"
+	vaultsapi "github.com/longfan78/quorum-key-manager/src/vaults/api/manifest"
 )
 
 func initialize(

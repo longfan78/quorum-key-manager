@@ -3,7 +3,7 @@ package testutils
 import (
 	"encoding/base64"
 
-	cmn "github.com/consensys/quorum-key-manager/pkg/common"
+	cmn "github.com/longfan78/quorum-key-manager/pkg/common"
 
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 
@@ -11,8 +11,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	"github.com/consensys/quorum-key-manager/src/stores/api/types"
-	"github.com/consensys/quorum-key-manager/src/stores/entities/testutils"
+	"github.com/longfan78/quorum-key-manager/src/stores/api/types"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities/testutils"
 )
 
 func FakeSetSecretRequest() *types.SetSecretRequest {

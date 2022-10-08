@@ -1,10 +1,10 @@
 package utils
 
 import (
-	"github.com/consensys/quorum-key-manager/pkg/crypto/ecdsa"
-	"github.com/consensys/quorum-key-manager/pkg/crypto/eddsa"
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/pkg/crypto/ecdsa"
+	"github.com/longfan78/quorum-key-manager/pkg/crypto/eddsa"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 )
 
 func (u *Utilities) Verify(pubKey, data, sig []byte, algo *entities.Algorithm) error {

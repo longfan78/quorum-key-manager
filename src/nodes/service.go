@@ -3,8 +3,8 @@ package nodes
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	proxynode "github.com/consensys/quorum-key-manager/src/nodes/node/proxy"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	proxynode "github.com/longfan78/quorum-key-manager/src/nodes/node/proxy"
 )
 
 //go:generate mockgen -source=service.go -destination=mock/service.go -package=mock

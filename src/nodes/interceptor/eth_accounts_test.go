@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/src/auth/api/http"
+	"github.com/longfan78/quorum-key-manager/src/auth/api/http"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	proxynode "github.com/consensys/quorum-key-manager/src/nodes/node/proxy"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	proxynode "github.com/longfan78/quorum-key-manager/src/nodes/node/proxy"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/golang/mock/gomock"
 )

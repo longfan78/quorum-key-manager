@@ -3,12 +3,12 @@ package eth
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/stores/database/models"
+	"github.com/longfan78/quorum-key-manager/src/stores/database/models"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	authentities "github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	authentities "github.com/longfan78/quorum-key-manager/src/auth/entities"
 
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 )
 
 func (c Connector) Create(ctx context.Context, id string, attr *entities.Attributes) (*entities.ETHAccount, error) {

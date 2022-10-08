@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/signer/core"
 )

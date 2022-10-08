@@ -8,11 +8,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	authtypes "github.com/consensys/quorum-key-manager/src/auth/entities"
+	authtypes "github.com/longfan78/quorum-key-manager/src/auth/entities"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/pkg/ethereum"
-	quorumtypes "github.com/consensys/quorum/core/types"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/ethereum"
+	quorumtypes "github.com/longfan78/quorum/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"

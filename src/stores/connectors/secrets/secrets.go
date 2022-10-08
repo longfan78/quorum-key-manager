@@ -1,10 +1,10 @@
 package secrets
 
 import (
-	"github.com/consensys/quorum-key-manager/src/auth"
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	"github.com/consensys/quorum-key-manager/src/stores"
-	"github.com/consensys/quorum-key-manager/src/stores/database"
+	"github.com/longfan78/quorum-key-manager/src/auth"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/stores"
+	"github.com/longfan78/quorum-key-manager/src/stores/database"
 )
 
 type Connector struct {

@@ -3,10 +3,10 @@ package registries
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/service/authorizator"
+	"github.com/longfan78/quorum-key-manager/src/auth/service/authorizator"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	auth "github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	auth "github.com/longfan78/quorum-key-manager/src/auth/entities"
 )
 
 func (s *Registries) Delete(ctx context.Context, name string, userInfo *auth.UserInfo) error {

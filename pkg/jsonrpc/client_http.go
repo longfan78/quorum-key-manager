@@ -3,9 +3,9 @@ package jsonrpc
 import (
 	"net/http"
 
-	httpclient "github.com/consensys/quorum-key-manager/pkg/http/client"
-	"github.com/consensys/quorum-key-manager/pkg/http/request"
-	"github.com/consensys/quorum-key-manager/pkg/http/response"
+	httpclient "github.com/longfan78/quorum-key-manager/pkg/http/client"
+	"github.com/longfan78/quorum-key-manager/pkg/http/request"
+	"github.com/longfan78/quorum-key-manager/pkg/http/response"
 )
 
 // HTTPClient is a connector to a jsonrpc server

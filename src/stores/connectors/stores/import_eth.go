@@ -3,12 +3,12 @@ package stores
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/service/authorizator"
+	"github.com/longfan78/quorum-key-manager/src/auth/service/authorizator"
 
-	arrays "github.com/consensys/quorum-key-manager/pkg/common"
-	authtypes "github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/stores/database/models"
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	arrays "github.com/longfan78/quorum-key-manager/pkg/common"
+	authtypes "github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/stores/database/models"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 )
 
 func (c *Connector) ImportEthereum(ctx context.Context, storeName string, userInfo *authtypes.UserInfo) error {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"math/big"
 
-	quorumtypes "github.com/consensys/quorum/core/types"
+	quorumtypes "github.com/longfan78/quorum/core/types"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core/types"

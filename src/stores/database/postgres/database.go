@@ -3,11 +3,11 @@ package postgres
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
 
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	"github.com/consensys/quorum-key-manager/src/infra/postgres"
-	"github.com/consensys/quorum-key-manager/src/stores/database"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/infra/postgres"
+	"github.com/longfan78/quorum-key-manager/src/stores/database"
 )
 
 type Database struct {

@@ -1,10 +1,10 @@
 package registries
 
 import (
-	"github.com/consensys/quorum-key-manager/src/aliases"
-	"github.com/consensys/quorum-key-manager/src/aliases/database"
-	"github.com/consensys/quorum-key-manager/src/auth"
-	"github.com/consensys/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/aliases"
+	"github.com/longfan78/quorum-key-manager/src/aliases/database"
+	"github.com/longfan78/quorum-key-manager/src/auth"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
 )
 
 type Registries struct {

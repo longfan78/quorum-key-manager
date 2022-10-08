@@ -3,9 +3,9 @@ package stores
 import (
 	"context"
 
-	auth "github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/auth/service/authorizator"
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	auth "github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/service/authorizator"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 )
 
 func (c *Connector) CreateEthereum(ctx context.Context, name, keyStore string, allowedTenants []string, userInfo *auth.UserInfo) error {

@@ -7,7 +7,7 @@ package mock
 import (
 	reflect "reflect"
 
-	ethereum "github.com/consensys/quorum-key-manager/pkg/ethereum"
+	ethereum "github.com/longfan78/quorum-key-manager/pkg/ethereum"
 	gomock "github.com/golang/mock/gomock"
 )
 

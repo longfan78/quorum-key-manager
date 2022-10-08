@@ -6,10 +6,10 @@ package mock
 
 import (
 	context "context"
-	jsonrpc "github.com/consensys/quorum-key-manager/pkg/jsonrpc"
-	types "github.com/consensys/quorum-key-manager/src/aliases/api/types"
-	types0 "github.com/consensys/quorum-key-manager/src/stores/api/types"
-	types1 "github.com/consensys/quorum-key-manager/src/utils/api/types"
+	jsonrpc "github.com/longfan78/quorum-key-manager/pkg/jsonrpc"
+	types "github.com/longfan78/quorum-key-manager/src/aliases/api/types"
+	types0 "github.com/longfan78/quorum-key-manager/src/stores/api/types"
+	types1 "github.com/longfan78/quorum-key-manager/src/utils/api/types"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

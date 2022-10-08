@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
-	entities2 "github.com/consensys/quorum-key-manager/src/entities"
+	entities2 "github.com/longfan78/quorum-key-manager/src/entities"
 
-	common2 "github.com/consensys/quorum-key-manager/pkg/common"
+	common2 "github.com/longfan78/quorum-key-manager/pkg/common"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 

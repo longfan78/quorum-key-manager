@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/consensys/quorum-key-manager/src/stores/api/types"
+	"github.com/longfan78/quorum-key-manager/src/stores/api/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

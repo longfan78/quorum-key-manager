@@ -5,20 +5,20 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 	"github.com/stretchr/testify/require"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/stores"
-	"github.com/consensys/quorum-key-manager/src/stores/database"
-	dbmocks "github.com/consensys/quorum-key-manager/src/stores/database/mock"
-	"github.com/consensys/quorum-key-manager/src/stores/entities/testutils"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/stores"
+	"github.com/longfan78/quorum-key-manager/src/stores/database"
+	dbmocks "github.com/longfan78/quorum-key-manager/src/stores/database/mock"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities/testutils"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/assert"
 
-	testutils2 "github.com/consensys/quorum-key-manager/src/infra/log/testutils"
-	mocksecrets "github.com/consensys/quorum-key-manager/src/stores/mock"
+	testutils2 "github.com/longfan78/quorum-key-manager/src/infra/log/testutils"
+	mocksecrets "github.com/longfan78/quorum-key-manager/src/stores/mock"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/suite"

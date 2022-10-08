@@ -3,7 +3,7 @@ package roles
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
 )
 
 func (i *Roles) Get(ctx context.Context, name string, _ *entities.UserInfo) (*entities.Role, error) {

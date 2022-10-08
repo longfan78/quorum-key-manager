@@ -3,13 +3,13 @@ package app
 import (
 	"crypto/x509"
 
-	"github.com/consensys/quorum-key-manager/pkg/app"
-	"github.com/consensys/quorum-key-manager/src/auth/api/http"
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/auth/service/authenticator"
-	"github.com/consensys/quorum-key-manager/src/auth/service/roles"
-	"github.com/consensys/quorum-key-manager/src/infra/jwt"
-	"github.com/consensys/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/pkg/app"
+	"github.com/longfan78/quorum-key-manager/src/auth/api/http"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/service/authenticator"
+	"github.com/longfan78/quorum-key-manager/src/auth/service/roles"
+	"github.com/longfan78/quorum-key-manager/src/infra/jwt"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
 	"github.com/justinas/alice"
 )
 

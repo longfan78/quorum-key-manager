@@ -3,11 +3,11 @@ package utils
 import (
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/pkg/crypto/ecdsa"
-	"github.com/consensys/quorum-key-manager/pkg/crypto/eddsa"
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/entities"
-	"github.com/consensys/quorum-key-manager/src/infra/log/testutils"
+	"github.com/longfan78/quorum-key-manager/pkg/crypto/ecdsa"
+	"github.com/longfan78/quorum-key-manager/pkg/crypto/eddsa"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/testutils"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

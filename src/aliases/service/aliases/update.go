@@ -3,11 +3,11 @@ package aliases
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/service/authorizator"
+	"github.com/longfan78/quorum-key-manager/src/auth/service/authorizator"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	auth "github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	auth "github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 )
 
 func (s *Aliases) Update(ctx context.Context, registry, key, kind string, value interface{}, userInfo *auth.UserInfo) (*entities.Alias, error) {

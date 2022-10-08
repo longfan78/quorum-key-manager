@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 )
 
 type Alias struct {

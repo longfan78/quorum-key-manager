@@ -3,7 +3,7 @@ package http
 import (
 	"net/http"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
 )
 
 type NoAuth struct {

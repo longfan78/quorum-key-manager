@@ -3,8 +3,8 @@ package testutils
 import (
 	"time"
 
-	"github.com/consensys/quorum-key-manager/pkg/common"
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/pkg/common"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 )
 
 func FakeAlias(registry, key, kind string, value interface{}) *entities.Alias {

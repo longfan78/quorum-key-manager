@@ -4,16 +4,16 @@ import (
 	"context"
 	"time"
 
-	"github.com/consensys/quorum-key-manager/src/infra/postgres/client"
-	"github.com/consensys/quorum-key-manager/src/stores/database/models"
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/infra/postgres/client"
+	"github.com/longfan78/quorum-key-manager/src/stores/database/models"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
 
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	"github.com/consensys/quorum-key-manager/src/infra/postgres"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/infra/postgres"
 
-	"github.com/consensys/quorum-key-manager/src/stores/database"
+	"github.com/longfan78/quorum-key-manager/src/stores/database"
 )
 
 type Secrets struct {

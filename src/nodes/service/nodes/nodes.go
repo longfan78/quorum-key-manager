@@ -4,14 +4,14 @@ import (
 	"context"
 	"sync"
 
-	"github.com/consensys/quorum-key-manager/src/aliases"
-	"github.com/consensys/quorum-key-manager/src/nodes"
-	"github.com/consensys/quorum-key-manager/src/nodes/entities"
-	proxynode "github.com/consensys/quorum-key-manager/src/nodes/node/proxy"
-	"github.com/consensys/quorum-key-manager/src/stores"
+	"github.com/longfan78/quorum-key-manager/src/aliases"
+	"github.com/longfan78/quorum-key-manager/src/nodes"
+	"github.com/longfan78/quorum-key-manager/src/nodes/entities"
+	proxynode "github.com/longfan78/quorum-key-manager/src/nodes/node/proxy"
+	"github.com/longfan78/quorum-key-manager/src/stores"
 
-	"github.com/consensys/quorum-key-manager/src/auth"
-	"github.com/consensys/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/auth"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
 )
 
 type Nodes struct {

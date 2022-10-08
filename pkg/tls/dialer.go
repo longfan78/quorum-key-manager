@@ -6,7 +6,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/consensys/quorum-key-manager/pkg/tcp"
+	"github.com/longfan78/quorum-key-manager/pkg/tcp"
 )
 
 type Dialer struct {

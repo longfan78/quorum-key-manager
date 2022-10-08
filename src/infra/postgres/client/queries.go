@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/consensys/quorum-key-manager/src/infra/postgres"
+	"github.com/longfan78/quorum-key-manager/src/infra/postgres"
 )
 
 func QuerySearchIDs(ctx context.Context, client postgres.Client, table, idCol, whereCond string, whereArgs []interface{}, isDeleted bool, limit, offset uint64) ([]string, error) {

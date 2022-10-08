@@ -3,7 +3,7 @@ package types
 import (
 	"time"
 
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 )
 
 // AliasRequest creates or modifies an alias value.

@@ -3,11 +3,11 @@ package eth
 import (
 	"context"
 
-	authtypes "github.com/consensys/quorum-key-manager/src/auth/entities"
+	authtypes "github.com/longfan78/quorum-key-manager/src/auth/entities"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/stores/database"
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/stores/database"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )
 

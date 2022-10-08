@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/consensys/quorum-key-manager/src/aliases/api/types"
+	"github.com/longfan78/quorum-key-manager/src/aliases/api/types"
 )
 
 const registryPathf = "%s/registries/%s"

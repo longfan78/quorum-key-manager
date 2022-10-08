@@ -5,8 +5,8 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	babyjubjub "github.com/consensys/gnark-crypto/ecc/bn254/twistededwards/eddsa"
-	"github.com/consensys/gnark-crypto/hash"
+	babyjubjub "github.com/longfan78/gnark-crypto/ecc/bn254/twistededwards/eddsa"
+	"github.com/longfan78/gnark-crypto/hash"
 )
 
 func CreateBabyjubjub(importedPrivKey []byte) (privKey, pubKey []byte, err error) {

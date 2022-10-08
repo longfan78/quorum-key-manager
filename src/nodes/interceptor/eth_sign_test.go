@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/src/auth/api/http"
+	"github.com/longfan78/quorum-key-manager/src/auth/api/http"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	proxynode "github.com/consensys/quorum-key-manager/src/nodes/node/proxy"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	proxynode "github.com/longfan78/quorum-key-manager/src/nodes/node/proxy"
 
-	mockaccounts "github.com/consensys/quorum-key-manager/src/stores/mock"
+	mockaccounts "github.com/longfan78/quorum-key-manager/src/stores/mock"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/golang/mock/gomock"
 )

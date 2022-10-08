@@ -3,7 +3,7 @@ package keys
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
 )
 
 func (c Connector) Encrypt(ctx context.Context, id string, data []byte) ([]byte, error) {

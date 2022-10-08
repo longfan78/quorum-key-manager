@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	mock3 "github.com/consensys/quorum-key-manager/src/auth/mock"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	mock3 "github.com/longfan78/quorum-key-manager/src/auth/mock"
 
-	"github.com/consensys/quorum-key-manager/src/infra/log/testutils"
-	mock2 "github.com/consensys/quorum-key-manager/src/stores/database/mock"
-	testutils2 "github.com/consensys/quorum-key-manager/src/stores/entities/testutils"
-	"github.com/consensys/quorum-key-manager/src/stores/mock"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/testutils"
+	mock2 "github.com/longfan78/quorum-key-manager/src/stores/database/mock"
+	testutils2 "github.com/longfan78/quorum-key-manager/src/stores/entities/testutils"
+	"github.com/longfan78/quorum-key-manager/src/stores/mock"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )

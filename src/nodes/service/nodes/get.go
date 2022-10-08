@@ -3,11 +3,11 @@ package nodes
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
 
-	authtypes "github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/auth/service/authorizator"
-	proxynode "github.com/consensys/quorum-key-manager/src/nodes/node/proxy"
+	authtypes "github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/service/authorizator"
+	proxynode "github.com/longfan78/quorum-key-manager/src/nodes/node/proxy"
 )
 
 func (i *Nodes) Get(ctx context.Context, name string, userInfo *authtypes.UserInfo) (*proxynode.Node, error) {

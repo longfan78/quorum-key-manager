@@ -3,12 +3,12 @@ package http
 import (
 	"net/http"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	jsonutils "github.com/consensys/quorum-key-manager/pkg/json"
-	"github.com/consensys/quorum-key-manager/src/aliases"
-	"github.com/consensys/quorum-key-manager/src/aliases/api/types"
-	auth "github.com/consensys/quorum-key-manager/src/auth/api/http"
-	infrahttp "github.com/consensys/quorum-key-manager/src/infra/http"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	jsonutils "github.com/longfan78/quorum-key-manager/pkg/json"
+	"github.com/longfan78/quorum-key-manager/src/aliases"
+	"github.com/longfan78/quorum-key-manager/src/aliases/api/types"
+	auth "github.com/longfan78/quorum-key-manager/src/auth/api/http"
+	infrahttp "github.com/longfan78/quorum-key-manager/src/infra/http"
 	"github.com/gorilla/mux"
 )
 

@@ -3,11 +3,11 @@ package secrets
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
 
-	authentities "github.com/consensys/quorum-key-manager/src/auth/entities"
+	authentities "github.com/longfan78/quorum-key-manager/src/auth/entities"
 
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 )
 
 func (c Connector) Set(ctx context.Context, id, value string, attr *entities.Attributes) (*entities.Secret, error) {

@@ -5,7 +5,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/consensys/quorum-key-manager/pkg/net/dialer"
+	"github.com/longfan78/quorum-key-manager/pkg/net/dialer"
 	"golang.org/x/net/http2"
 )
 

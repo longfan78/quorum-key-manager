@@ -5,7 +5,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 	"github.com/ethereum/go-ethereum/common"
 )
 

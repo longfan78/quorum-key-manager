@@ -5,19 +5,19 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/src/auth/api/http"
+	"github.com/longfan78/quorum-key-manager/src/auth/api/http"
 
-	aliasmock "github.com/consensys/quorum-key-manager/src/aliases/mock"
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/infra/log/testutils"
-	mockaccounts "github.com/consensys/quorum-key-manager/src/stores/mock"
+	aliasmock "github.com/longfan78/quorum-key-manager/src/aliases/mock"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/testutils"
+	mockaccounts "github.com/longfan78/quorum-key-manager/src/stores/mock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/consensys/quorum-key-manager/pkg/ethereum"
-	mockethereum "github.com/consensys/quorum-key-manager/pkg/ethereum/mock"
-	mocktessera "github.com/consensys/quorum-key-manager/pkg/tessera/mock"
-	proxynode "github.com/consensys/quorum-key-manager/src/nodes/node/proxy"
+	"github.com/longfan78/quorum-key-manager/pkg/ethereum"
+	mockethereum "github.com/longfan78/quorum-key-manager/pkg/ethereum/mock"
+	mocktessera "github.com/longfan78/quorum-key-manager/pkg/tessera/mock"
+	proxynode "github.com/longfan78/quorum-key-manager/src/nodes/node/proxy"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/golang/mock/gomock"
 )

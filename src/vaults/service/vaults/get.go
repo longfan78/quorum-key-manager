@@ -3,9 +3,9 @@ package vaults
 import (
 	"context"
 
-	auth "github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/auth/service/authorizator"
-	"github.com/consensys/quorum-key-manager/src/entities"
+	auth "github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/service/authorizator"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 )
 
 func (c *Vaults) Get(ctx context.Context, name string, userInfo *auth.UserInfo) (*entities.Vault, error) {

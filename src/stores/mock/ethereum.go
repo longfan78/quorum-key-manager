@@ -6,9 +6,9 @@ package mock
 
 import (
 	context "context"
-	ethereum "github.com/consensys/quorum-key-manager/pkg/ethereum"
-	entities "github.com/consensys/quorum-key-manager/src/stores/entities"
-	types "github.com/consensys/quorum/core/types"
+	ethereum "github.com/longfan78/quorum-key-manager/pkg/ethereum"
+	entities "github.com/longfan78/quorum-key-manager/src/stores/entities"
+	types "github.com/longfan78/quorum/core/types"
 	common "github.com/ethereum/go-ethereum/common"
 	types0 "github.com/ethereum/go-ethereum/core/types"
 	core "github.com/ethereum/go-ethereum/signer/core"

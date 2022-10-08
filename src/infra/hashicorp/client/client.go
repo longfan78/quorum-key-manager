@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/infra/hashicorp"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/infra/hashicorp"
 	"github.com/hashicorp/vault/api"
 )
 

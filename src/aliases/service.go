@@ -3,8 +3,8 @@ package aliases
 import (
 	"context"
 
-	auth "github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/entities"
+	auth "github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 )
 
 //go:generate mockgen -source=service.go -destination=mock/service.go -package=mock

@@ -3,7 +3,7 @@ package apikey
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
 )
 
 //go:generate mockgen -source=reader.go -destination=mock/reader.go -package=mock

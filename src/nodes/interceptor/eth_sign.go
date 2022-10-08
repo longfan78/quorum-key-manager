@@ -3,8 +3,8 @@ package interceptor
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/pkg/jsonrpc"
-	"github.com/consensys/quorum-key-manager/src/auth/api/http"
+	"github.com/longfan78/quorum-key-manager/pkg/jsonrpc"
+	"github.com/longfan78/quorum-key-manager/src/auth/api/http"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

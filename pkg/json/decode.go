@@ -7,7 +7,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/consensys/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
 	"github.com/go-playground/validator/v10"
 )
 

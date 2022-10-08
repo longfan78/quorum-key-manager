@@ -3,10 +3,10 @@ package client
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/pkg/jsonrpc"
-	aliastypes "github.com/consensys/quorum-key-manager/src/aliases/api/types"
-	storestypes "github.com/consensys/quorum-key-manager/src/stores/api/types"
-	utilstypes "github.com/consensys/quorum-key-manager/src/utils/api/types"
+	"github.com/longfan78/quorum-key-manager/pkg/jsonrpc"
+	aliastypes "github.com/longfan78/quorum-key-manager/src/aliases/api/types"
+	storestypes "github.com/longfan78/quorum-key-manager/src/stores/api/types"
+	utilstypes "github.com/longfan78/quorum-key-manager/src/utils/api/types"
 )
 
 //go:generate mockgen -source=client.go -destination=mock/mock.go -package=mock

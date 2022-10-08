@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/consensys/quorum-key-manager/src/utils/api/types"
+	"github.com/longfan78/quorum-key-manager/src/utils/api/types"
 )
 
 const utilsPath = "utilities"

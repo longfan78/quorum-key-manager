@@ -7,7 +7,7 @@ package mock
 import (
 	context "context"
 	tls "crypto/tls"
-	entities "github.com/consensys/quorum-key-manager/src/auth/entities"
+	entities "github.com/longfan78/quorum-key-manager/src/auth/entities"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

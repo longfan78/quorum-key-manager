@@ -3,7 +3,7 @@ package stores
 import (
 	"context"
 
-	"github.com/consensys/quorum-key-manager/src/stores/entities"
+	"github.com/longfan78/quorum-key-manager/src/stores/entities"
 )
 
 //go:generate mockgen -source=secrets.go -destination=mock/secrets.go -package=mock

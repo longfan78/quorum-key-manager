@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/consensys/quorum-key-manager/pkg/json"
+	"github.com/longfan78/quorum-key-manager/pkg/json"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,14 +5,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/src/auth/api/http"
+	"github.com/longfan78/quorum-key-manager/src/auth/api/http"
 
-	"github.com/consensys/quorum-key-manager/pkg/common"
-	"github.com/consensys/quorum-key-manager/pkg/ethereum"
-	mockethereum "github.com/consensys/quorum-key-manager/pkg/ethereum/mock"
-	"github.com/consensys/quorum-key-manager/src/auth/entities"
-	proxynode "github.com/consensys/quorum-key-manager/src/nodes/node/proxy"
-	mockaccounts "github.com/consensys/quorum-key-manager/src/stores/mock"
+	"github.com/longfan78/quorum-key-manager/pkg/common"
+	"github.com/longfan78/quorum-key-manager/pkg/ethereum"
+	mockethereum "github.com/longfan78/quorum-key-manager/pkg/ethereum/mock"
+	"github.com/longfan78/quorum-key-manager/src/auth/entities"
+	proxynode "github.com/longfan78/quorum-key-manager/src/nodes/node/proxy"
+	mockaccounts "github.com/longfan78/quorum-key-manager/src/stores/mock"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/golang/mock/gomock"
 )

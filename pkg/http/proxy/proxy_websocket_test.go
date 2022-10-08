@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	"github.com/consensys/quorum-key-manager/pkg/common"
-	"github.com/consensys/quorum-key-manager/pkg/http/request"
+	"github.com/longfan78/quorum-key-manager/pkg/common"
+	"github.com/longfan78/quorum-key-manager/pkg/http/request"
 )
 
 // var testBpool = bpool.NewBytePool(32, 1024)
