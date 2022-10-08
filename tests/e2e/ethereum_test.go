@@ -4,7 +4,7 @@ package e2e
 
 import (
 	"fmt"
-	utilstypes "github.com/consensys/quorum-key-manager/src/utils/api/types"
+	utilstypes "github.com/longfan78/quorum-key-manager/src/utils/api/types"
 	"net/http"
 	"os"
 	"strings"
@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/consensys/quorum-key-manager/pkg/client"
-	"github.com/consensys/quorum-key-manager/pkg/common"
-	"github.com/consensys/quorum-key-manager/src/stores/api/types"
-	"github.com/consensys/quorum-key-manager/src/stores/api/types/testutils"
+	"github.com/longfan78/quorum-key-manager/pkg/client"
+	"github.com/longfan78/quorum-key-manager/pkg/common"
+	"github.com/longfan78/quorum-key-manager/src/stores/api/types"
+	"github.com/longfan78/quorum-key-manager/src/stores/api/types/testutils"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/assert"

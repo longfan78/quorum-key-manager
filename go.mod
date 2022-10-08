@@ -1,4 +1,4 @@
-module github.com/consensys/quorum-key-manager
+module github.com/longfan78/quorum-key-manager
 
 go 1.16
 
@@ -36,6 +36,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.12 // indirect
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c
 	github.com/rivo/uniseg v0.2.0 // indirect
+	github.com/rs/cors v1.8.2 // indirect
 	github.com/sirupsen/logrus v1.8.1
 	github.com/smartystreets/assertions v1.1.0 // indirect
 	github.com/spf13/afero v1.3.4 // indirect

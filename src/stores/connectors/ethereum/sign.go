@@ -12,7 +12,7 @@ import (
 
 	"github.com/longfan78/quorum-key-manager/pkg/errors"
 	"github.com/longfan78/quorum-key-manager/pkg/ethereum"
-	quorumtypes "github.com/longfan78/quorum/core/types"
+	quorumtypes "github.com/consensys/quorum/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"

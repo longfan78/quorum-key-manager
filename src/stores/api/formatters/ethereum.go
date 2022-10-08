@@ -8,7 +8,7 @@ import (
 	"github.com/longfan78/quorum-key-manager/pkg/ethereum"
 	"github.com/longfan78/quorum-key-manager/src/stores/api/types"
 	"github.com/longfan78/quorum-key-manager/src/stores/entities"
-	quorumtypes "github.com/longfan78/quorum/core/types"
+	quorumtypes "github.com/consensys/quorum/core/types"
 	"github.com/ethereum/go-ethereum/common/math"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	signer "github.com/ethereum/go-ethereum/signer/core"

@@ -7,21 +7,21 @@ import (
 	"strconv"
 	"time"
 
-	models2 "github.com/consensys/quorum-key-manager/src/aliases/database/models"
-	"github.com/consensys/quorum-key-manager/tests/acceptance/docker/config/hashicorp"
+	models2 "github.com/longfan78/quorum-key-manager/src/aliases/database/models"
+	"github.com/longfan78/quorum-key-manager/tests/acceptance/docker/config/hashicorp"
 
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	"github.com/consensys/quorum-key-manager/src/infra/log/zap"
-	postgresclient "github.com/consensys/quorum-key-manager/src/infra/postgres/client"
-	"github.com/consensys/quorum-key-manager/src/stores/database/models"
-	"github.com/consensys/quorum-key-manager/tests/acceptance/docker/config/postgres"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/zap"
+	postgresclient "github.com/longfan78/quorum-key-manager/src/infra/postgres/client"
+	"github.com/longfan78/quorum-key-manager/src/stores/database/models"
+	"github.com/longfan78/quorum-key-manager/tests/acceptance/docker/config/postgres"
 	"github.com/go-pg/pg/v10"
 	"github.com/go-pg/pg/v10/orm"
 
-	"github.com/consensys/quorum-key-manager/pkg/common"
-	"github.com/consensys/quorum-key-manager/pkg/http/server"
-	"github.com/consensys/quorum-key-manager/tests/acceptance/docker"
-	dconfig "github.com/consensys/quorum-key-manager/tests/acceptance/docker/config"
+	"github.com/longfan78/quorum-key-manager/pkg/common"
+	"github.com/longfan78/quorum-key-manager/pkg/http/server"
+	"github.com/longfan78/quorum-key-manager/tests/acceptance/docker"
+	dconfig "github.com/longfan78/quorum-key-manager/tests/acceptance/docker/config"
 	"k8s.io/apimachinery/pkg/util/rand"
 )
 

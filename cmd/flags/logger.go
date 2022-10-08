@@ -3,7 +3,7 @@ package flags
 import (
 	"fmt"
 
-	"github.com/consensys/quorum-key-manager/src/infra/log/zap"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/zap"
 
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"

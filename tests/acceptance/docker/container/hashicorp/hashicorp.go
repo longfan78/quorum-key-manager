@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	"github.com/consensys/quorum-key-manager/tests/acceptance/docker/config/hashicorp"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/tests/acceptance/docker/config/hashicorp"
 	dockercontainer "github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
 	"github.com/docker/go-connections/nat"

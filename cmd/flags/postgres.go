@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	postgresclient "github.com/consensys/quorum-key-manager/src/infra/postgres/client"
+	postgresclient "github.com/longfan78/quorum-key-manager/src/infra/postgres/client"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 )

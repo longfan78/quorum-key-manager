@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/consensys/quorum-key-manager/src/infra/jwt/jose"
+	"github.com/longfan78/quorum-key-manager/src/infra/jwt/jose"
 
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"

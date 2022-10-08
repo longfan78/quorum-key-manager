@@ -14,7 +14,7 @@ import (
 	mock2 "github.com/longfan78/quorum-key-manager/src/stores/database/mock"
 	testutils2 "github.com/longfan78/quorum-key-manager/src/stores/entities/testutils"
 	"github.com/longfan78/quorum-key-manager/src/stores/mock"
-	quorumtypes "github.com/longfan78/quorum/core/types"
+	quorumtypes "github.com/consensys/quorum/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core/types"

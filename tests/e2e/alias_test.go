@@ -3,7 +3,7 @@
 package e2e
 
 import (
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 	"math/rand"
 	"net/http"
 	"strconv"
@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/consensys/quorum-key-manager/pkg/client"
-	"github.com/consensys/quorum-key-manager/src/aliases/api/types"
+	"github.com/longfan78/quorum-key-manager/pkg/client"
+	"github.com/longfan78/quorum-key-manager/src/aliases/api/types"
 	"github.com/stretchr/testify/suite"
 )
 

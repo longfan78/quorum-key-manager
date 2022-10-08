@@ -12,18 +12,18 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/pkg/client"
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	"github.com/consensys/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/pkg/client"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	"github.com/longfan78/quorum-key-manager/src/entities"
 
-	aliastypes "github.com/consensys/quorum-key-manager/src/aliases/api/types"
-	"github.com/consensys/quorum-key-manager/src/stores/api/types"
+	aliastypes "github.com/longfan78/quorum-key-manager/src/aliases/api/types"
+	"github.com/longfan78/quorum-key-manager/src/stores/api/types"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/consensys/quorum-key-manager/pkg/common"
+	"github.com/longfan78/quorum-key-manager/pkg/common"
 	"github.com/stretchr/testify/suite"
 )
 

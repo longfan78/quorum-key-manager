@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	postgresclient "github.com/consensys/quorum-key-manager/src/infra/postgres/client"
-	postgresConfig "github.com/consensys/quorum-key-manager/tests/acceptance/docker/config/postgres"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	postgresclient "github.com/longfan78/quorum-key-manager/src/infra/postgres/client"
+	postgresConfig "github.com/longfan78/quorum-key-manager/tests/acceptance/docker/config/postgres"
 	dockercontainer "github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
 	"github.com/docker/go-connections/nat"

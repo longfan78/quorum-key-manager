@@ -9,8 +9,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/consensys/quorum-key-manager/pkg/common"
-	"github.com/consensys/quorum-key-manager/src/stores/api/types"
+	"github.com/longfan78/quorum-key-manager/pkg/common"
+	"github.com/longfan78/quorum-key-manager/src/stores/api/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/consensys/quorum-key-manager/pkg/http/server"
+	"github.com/longfan78/quorum-key-manager/pkg/http/server"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 )

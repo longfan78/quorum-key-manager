@@ -2,10 +2,10 @@ package acceptancetests
 
 import (
 	"context"
-	"github.com/consensys/quorum-key-manager/pkg/errors"
-	authtypes "github.com/consensys/quorum-key-manager/src/auth/entities"
-	"github.com/consensys/quorum-key-manager/src/entities"
-	"github.com/consensys/quorum-key-manager/src/entities/testutils"
+	"github.com/longfan78/quorum-key-manager/pkg/errors"
+	authtypes "github.com/longfan78/quorum-key-manager/src/auth/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities"
+	"github.com/longfan78/quorum-key-manager/src/entities/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"math/rand"
@@ -14,7 +14,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/consensys/quorum-key-manager/src/aliases"
+	"github.com/longfan78/quorum-key-manager/src/aliases"
 )
 
 type aliasStoreTestSuite struct {

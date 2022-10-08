@@ -2,10 +2,10 @@ package e2e
 
 import (
 	"context"
-	"github.com/consensys/quorum-key-manager/pkg/client"
-	"github.com/consensys/quorum-key-manager/src/infra/log"
-	"github.com/consensys/quorum-key-manager/src/infra/log/zap"
-	"github.com/consensys/quorum-key-manager/tests"
+	"github.com/longfan78/quorum-key-manager/pkg/client"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/zap"
+	"github.com/longfan78/quorum-key-manager/tests"
 	"net/http"
 )
 

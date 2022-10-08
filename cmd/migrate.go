@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/consensys/quorum-key-manager/src/infra/log"
+	"github.com/longfan78/quorum-key-manager/src/infra/log"
 
-	"github.com/consensys/quorum-key-manager/cmd/flags"
-	"github.com/consensys/quorum-key-manager/src/infra/log/zap"
+	"github.com/longfan78/quorum-key-manager/cmd/flags"
+	"github.com/longfan78/quorum-key-manager/src/infra/log/zap"
 	"github.com/golang-migrate/migrate/v4"
 	_ "github.com/golang-migrate/migrate/v4/database/postgres" // nolint
 	_ "github.com/golang-migrate/migrate/v4/source/file"       // nolint

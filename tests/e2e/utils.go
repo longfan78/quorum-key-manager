@@ -13,7 +13,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/consensys/quorum-key-manager/pkg/client"
+	"github.com/longfan78/quorum-key-manager/pkg/client"
 )
 
 const MaxRetries = 5
