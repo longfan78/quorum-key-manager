@@ -54,6 +54,7 @@ func writeErrorResponse(rw http.ResponseWriter, status int, err error) {
 }
 
 func WriteJSON(rw http.ResponseWriter, data interface{}) error {
+	rw.Header().Set("Access-Control-Allow-Origin", "*")
 	rw.Header().Set("Content-Type", "application/json")
 	return json.NewEncoder(rw).Encode(data)
 }
